@@ -8,11 +8,13 @@ import ViewUI from '../node_modules/view-design'
 import 'view-design/dist/styles/iview.css'
 
 
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 
 Vue.use(ViewUI);
+// Vue.use(echarts);
 
 new Vue({
   el: '#app',
